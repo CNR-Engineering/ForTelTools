@@ -105,7 +105,7 @@
       INTEGER FUNCTION NB_FRAME(res)
       IMPLICIT NONE
       TYPE(RESDATA), INTENT(IN)  :: res
-      INTEGER :: headersize, filesize, framesize
+      INTEGER(KIND=8) :: headersize, filesize, framesize
 
       filesize = 0              !FIXME: debug for windows
 
