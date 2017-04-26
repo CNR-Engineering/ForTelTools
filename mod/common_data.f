@@ -375,10 +375,10 @@
 
       WRITE(*,*)
       WRITE(*,*) repeat('#', line_length)
-      WRITE(*,*) "#                                                            ___ _ __  _ __  #"
-      WRITE(*,*) "#  Programme : "// LJUST(name, 43)                     //"  / __| '_ \| '__| #"
-      WRITE(*,*) "#  Version   : "// LJUST(version, 43)                  //" | (__| | | | |    #"
-      WRITE(*,*) "#  "//             LJUST(brief, 55)                    //"  \___|_| |_|_|    #"
+      WRITE(*,*) "#                                                                            #"
+      WRITE(*,*) "#  Programme : "// LJUST(name, 60)    //"  #"
+      WRITE(*,*) "#  Version   : "// LJUST(version, 60) //"  #"
+      WRITE(*,*) "#  "//             LJUST(brief, 72)   //"  #"
       WRITE(*,*) "#                                                                            #"
       WRITE(*,*) repeat('#', line_length)
       WRITE(*,*)
